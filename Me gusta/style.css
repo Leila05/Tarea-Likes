@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*Estilos de la barra de navegacion*/
+.top-nav{
+    width: 527px;
+    margin-left: 319px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Estilos del boton Login*/
+.btn>button{
+    background-color: rgb(65, 91, 240);
+    color: white;
+    padding: 3px 12px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+}
+
+/*Posiciona cada contenedor*/
+#general{
+    display: flex;
+    width: 50px;
+    margin-left: 303px;
+
+}
+.columna1, .columna2{
+    flex: 1;
+}
+
+
+/*Estilos del primer contenedor*/
+.container1{
+    background-color: white;
+    margin: 15px;
+    padding: 20px 10px;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin: 0px 10px 20px;
+}
+.cont-text{
+    margin: 10px 5px 20px;
+}
+.cont-text>p{
+    font-size: x-large;
+}
+
+/*Contenedor dos*/
+.container2{
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    width: 330px;
+    display: flex;
+    border: 2px solid black;
+}
+/*Estilos de los titulos del contenedor dos*/
+.cont-1{
+    display: flex;
+}
+.cont-title{
+    margin: 5px 25px 10px 15px;
+    font-size: x-large;
+}
+.cont-title>p{
+    width: 103px;
+}
+.contenido{
+    display: flex;
+    margin: 10px 10px 10px 45px;
+    height: 20px;
+    width: 60px;
+}
+.contenido>p{
+    margin: 0px 3px;
+}
+.contenido-btn{
+    margin: 3px 10px 0px 10px;
+}
+.contenido-btn>button{
+    background-color: rgb(241, 241, 96);
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+}
+.texto{
+    display: flex;
+    margin: 15px;
+}
